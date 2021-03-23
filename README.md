@@ -15,4 +15,4 @@ In python load with:
 Given an adjacency matrix M (stored as a numpy array), to get the clique counts call:
 - cliquecontain = flagser_count(M)
 
-Then, cliquecontain[v][d] contains the number of simplices of dimension d which contain the vertex v.
+Then, cliquecontain[v][d] is the number of simplices of dimension d which contain the vertex v.
