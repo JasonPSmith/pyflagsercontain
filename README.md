@@ -12,9 +12,7 @@ Then, install with:
 In python load with:
 - from pyflagsercontain import flagser_count
 
-To get the clique counts of a graph call:
+Given an adjacency matrix adj_matrix (stored as a numpy array),to get the clique counts call:
 - cliquecontain = flagser_count(adj_matrix)
-
-where adj_matrix is a numpy array of the adjacency matrix of the graph.
 
 Then, cliquecontain[v][d] contains the number of simplices of dimension d which contain the vertex v.
