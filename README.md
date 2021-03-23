@@ -10,7 +10,7 @@ Then, install with:
 
 ## Usage
 In python load with:
-- from pyflagsercontain import flager_count
+- from pyflagsercontain import flagser_count
 
 To get the clique counts of a graph call:
 - cliquecontain = flagser_count(adj_matrix)
