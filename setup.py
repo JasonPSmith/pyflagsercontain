@@ -1,16 +1,3 @@
-"""
-toposampling - Topology-assisted sampling and analysis of activity data
-Copyright (C) 2020 Blue Brain Project / EPFL & University of Aberdeen
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as
-published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
-"""
-
 import os
 import re
 import sys
@@ -78,7 +65,7 @@ setup(
     version='0.0.1',
     author='Jason P. Smith',
     description='A pybind11 wrapper for a version of flagser that returns the number of directed cliques each vertex belongs to',
-    ext_modules=[CMakeExtension('pyflagsercontain/pyflagsercontain')],
+    ext_modules=[CMakeExtension('pyflagsercontain')],
     cmdclass=dict(build_ext=CMakeBuild),
     packages=["pyflagsercontain"],
     zip_safe=False,

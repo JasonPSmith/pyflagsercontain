@@ -8,7 +8,7 @@
 
 namespace py = pybind11;
 
-PYBIND11_MODULE(pyflagsercontain, m) {
+PYBIND11_MODULE(pycontain, m) {
 
   m.doc() = "Python interface for flagser_count";
 
