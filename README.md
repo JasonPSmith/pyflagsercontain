@@ -12,7 +12,7 @@ Then, install with:
 In python load with:
 - from pyflagsercontain import flagser_count
 
-Given an adjacency matrix adj_matrix (stored as a numpy array),to get the clique counts call:
-- cliquecontain = flagser_count(adj_matrix)
+Given an adjacency matrix M (stored as a numpy array), to get the clique counts call:
+- cliquecontain = flagser_count(M)
 
 Then, cliquecontain[v][d] contains the number of simplices of dimension d which contain the vertex v.
