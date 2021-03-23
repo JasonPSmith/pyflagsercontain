@@ -14,6 +14,7 @@ In python load with:
 
 To get the clique counts of a graph call:
 - cliquecontain = flagser_count(adj_matrix)
+
 where adj_matrix is a numpy array of the adjacency matrix of the graph.
 
 Then, cliquecontain[v][d] contains the number of simplices of dimension d which contain the vertex v.
